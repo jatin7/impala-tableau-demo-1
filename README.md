@@ -6,7 +6,7 @@ and information to recreate the demo, as presented at the
 [North Texas Tableau User Group](http://www.meetup.com/North-Texas-Tableau-User-Group/events/231073378/)
 Meetup event on 06/30/2016.
 
-A [PDF copy of the presentation](https://github.com/Colaberry/impala-tableau-demo/blob/master/Apache%20Impala%20Meetup%20v2.pdf) is included in the repo.
+A [PDF copy of the presentation](https://github.com/Colaberry/impala-tableau-demo/blob/master/Apache%20Impala%20Meetup%20v2.pdf) is included in the repo. If you have any questions, contact information is available in the deck. 
 
 ## Setup
 We have used the following cluster configuration for the demo, on AWS.
@@ -19,7 +19,7 @@ To setup cluster, suggest using Cloudera Director. Follow [instructions here](ht
 
 There is also a Quickstart template on AWS to setup the cluster. See [instructions here](http://docs.aws.amazon.com/quickstart/latest/cloudera/welcome.html).
 
-You can also use a single node on your desktop in a VM to setup CDH. Follow [instructions to setup a Quickstart VM here](https://www.cloudera.com/developers/get-started-with-hadoop-tutorial.html).
+You can also use a single node on your desktop in a VM. Follow [instructions here to setup a Quickstart VM ](https://www.cloudera.com/developers/get-started-with-hadoop-tutorial.html) on your desktop.
 
 ### 2. Flight On-Time Performance Dataset
 Flight on-time performance data is available at [Bureau Of Transportation Statistics (BTS)](http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236&DB_Short_Name=On-Time). One CSV file is available for each month of data reported. Users can select list of columns and download data for a given month. [Data dictionary](http://www.transtats.bts.gov/Fields.asp?Table_ID=236) for the data can be reviewed [here](http://www.transtats.bts.gov/Fields.asp?Table_ID=236).
