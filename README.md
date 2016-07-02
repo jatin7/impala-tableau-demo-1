@@ -157,7 +157,7 @@ ROW FORMAT DELIMITED
 FIELDS TERMINATED BY '|' location '/user/admin/flight_data';
 ```
 
-* Enable collecting stats
+* Compute stats
 ```sql
 compute stats default.flight_data
 ```
@@ -167,7 +167,7 @@ compute stats default.flight_data
 REFRESH flight_data;
 ```
 
-* If you want to add load invidual files, instead of a folder, you can use the explicit load command
+* To load invidual files, use the explicit load command. 
 ```sql
 load data inpath '<datafilepath>' overwrite into table flight_data;
 ```
