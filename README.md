@@ -1,10 +1,12 @@
-# Fast Big Data Analytics with Imapala and Tableau
+# Fast Big Data Analytics with Impala and Tableau
 
 Recreate the demo setup and try Apache Impala yourself to evaluate.
 You will find all notes and links on solution architecture, helper files, Tableau workbook
 and information to recreate the demo, as presented at the
 [North Texas Tableau User Group](http://www.meetup.com/North-Texas-Tableau-User-Group/events/231073378/)
 Meetup event on 06/30/2016.
+
+A PDF copy of the presentation is included in the repo.
 
 ## Solution Architecture
 
