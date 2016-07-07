@@ -193,6 +193,12 @@ load data inpath '<datafilepath>' overwrite into table flight_data;
 * Open the Tableau workbook
 * From the data source pane, click on the datasource IP Address/hostname. This will pop open the Clouder Hadoop server connection window. Update your server address (and authentication information) and you are ready to refresh the data. 
 
+#### Sample Dashboard Screenshots
+* Delay Reasons 
+![Dashboard 01](https://github.com/Colaberry/impala-tableau-demo/blob/master/dashboard01.png "Dashboard 01")
+* Delay Trends
+![Dashboard 02](https://github.com/Colaberry/impala-tableau-demo/blob/master/dashboard02.png "Dashboard 02")
+
 
 ### 5. (Optional) Store data in [Parquet](https://parquet.apache.org/) format
 
